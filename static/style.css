@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* estilização do estilo de todo o corpo */
+body {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* estilização do estilo do cabeçalho */
+h1{
+    color: #ededff;
+}
+
+/* estilização da div que contém o formulário de cadastro */
+#app {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 30%;
+    height: 100vh;
+    background: rgb(2, 46, 240);
+    background: linear-gradient(51deg, #2e1bdd 0%, rgba(88, 57, 179, 1) 50%, rgba(150, 0, 255, 1) 100%);
+    text-align: left;
+    align-items: center;
+    justify-content: center; 
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* estilização da div que contém a tabela de usuários */
+#addUserForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* estilização dos inputs do formulário de cadastro */
+#addUserForm input {
+    border-radius: 500px;
+    outline: none;
+    width: 60%;
+    height: 50px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+/* estilização do botão de cadastro */
+#addUserForm button {
+    background: none;
+    color: white;
+    border-color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    border-style: solid;
+    margin-top: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+/* estilização do botão de cadastro ao passar o mouse */
+#addUserForm button:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Tabela de usuários */
+#userTable {
+    width: 50%;
+    margin-left: 20px;
+    border-collapse: collapse;
+    
+}
+
+/* estilização da tabela de usuários */
+#userTable th, #userTable td {
+    border: 1px solid #341e6e;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+/* estilização do cabeçalho da tabela de usuários */
+#userTable th {
+    background-color: #cbb8ff;
+    color: #ffffff;
+}
+
+/* estilização da coluna das ações*/
+.acoes {
+    width: 18%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* estilização dos botões de ação */
+#userList button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 3px;
+    transition: box-shadow 0.3s ease;
+}
+
+/* estilização dos botões de ação ao passar o mouse */
+#userList button:hover {
+    box-shadow: 0 0 5px rgba(26, 25, 25, 0.8);
+}

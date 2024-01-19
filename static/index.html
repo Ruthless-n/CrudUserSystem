@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserSystem</title>
+    <link rel="stylesheet" href="static/style.css"> <!-- Importando o CSS -->
+    <script src="static/script.js" defer></script> <!-- Importando o JS -->
+
+</head>
+
+<body>
+    <div id="app">
+        <!-- Formulário para criar um novo usuário -->
+        <form id="addUserForm"> <!-- Formulário para adicionar um novo usuário com o id "addUserForm" -->
+            <h1>Cadastro de Emails</h1>
+            <input type="text" id="name" placeholder="Nome" required> <!-- Imput para o nome -->
+            <input type="email" id="email" placeholder="Email" required> <!-- Imput para o email -->
+            <button type="button" id="addButton">Adicionar Usuário</button> <!-- Botão para adicionar o usuário -->
+        </form>
+    </div>
+
+    <!-- Tabela de usuários -->
+    <table id="userTable"> <!-- Tabela com o id "userTable" -->
+        <thead> <!-- Cabeçalho da tabela -->
+            <tr> <!-- Linha do cabeçalho -->
+                <th>Nome</th> <!-- Coluna do cabeçalho -->
+                <th>Email</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="userList"></tbody> <!-- Corpo da tabela -->
+    </table>
+
+</body>
+
+</html>
