@@ -32,7 +32,7 @@ h1{
     border-bottom-right-radius: 20px;
 }
 
-/* estilização da div que contém a tabela de usuários */
+/* estilização da div que contém formulário de cadastro */
 #addUserForm {
     display: flex;
     flex-direction: column;
@@ -80,7 +80,8 @@ h1{
     width: 50%;
     margin-left: 20px;
     border-collapse: collapse;
-    
+    position: relative;
+    left: 50px;
 }
 
 /* estilização da tabela de usuários */
@@ -88,7 +89,6 @@ h1{
     border: 1px solid #341e6e;
     padding: 8px;
     text-align: left;
-    
 }
 
 /* estilização do cabeçalho da tabela de usuários */
